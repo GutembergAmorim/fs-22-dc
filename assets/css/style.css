@@ -6,6 +6,7 @@
 
 body{
     min-height: 100vh;
+    padding: 0 60px;
 
 }
 
@@ -16,7 +17,7 @@ body{
 
 .cabecalho{
     display: flex;
-    padding: 0 30px;
+    padding: 0 80px;
     height: 60px;
     align-items: center;
     justify-content: space-between;
@@ -40,4 +41,56 @@ body{
 
 .link:hover{
     color: #0053ff;
+}
+
+.corpo-pagina{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+    display: flex;
+    max-width: 100%;
+
+}
+
+.textos{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.textos h1{
+    font-size: 40px;
+    color: #030303;
+    font-family: 'IgraSans',Arial,sans-serif;
+    line-height: 50px;
+}
+
+.textos p{
+    font-size: 16px;
+    color: #030303;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 400;
+}
+
+.corpo-pagina img{
+    max-width: 60%;
+}
+
+button{
+    padding: 15px 25px;
+    background-color: #0053ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: fit-content;
+    line-height: 1.45;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
 }
